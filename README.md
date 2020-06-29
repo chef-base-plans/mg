@@ -53,12 +53,10 @@ $ hab pkg install core/mg --binlink
 
 #### Using an example binary
 
-You can now use the binary as normal.  For example:
+You can now use the binary as normal.  For example, to enter the mg terminal type
 
-``/bin/mg --help`` or ``mg --help``
+``mg``
 
-```bash
-$ mg --help
-mg: invalid option -- '-'
-usage: mg [-nR] [-f mode] [+number] [file ...]
-```
+and then ``Ctrl+h`` twice to view help.  You should see something like the following:
+
+![terminal](img/terminal.png)
